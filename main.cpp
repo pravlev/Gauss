@@ -29,7 +29,7 @@ int main(){
             cin>>a[i][j];
         }
     }
-    vector<double> x = methodGaysa(a);
+    vector<double> x = methodGauss(a);
     cout<<"solution:";
     for(int i=0;i<x.size();++i){
         cout<<x[i]<<' ';
